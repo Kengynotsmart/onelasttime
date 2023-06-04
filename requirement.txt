@@ -1,2 +1,2 @@
-requests
-flask
+Flask==2.0.1
+binance==1.0.13
