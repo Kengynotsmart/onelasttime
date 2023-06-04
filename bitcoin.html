@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bitcoin 1H Chart</title>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+</head>
+<body>
+  <div id="tv_chart_container"></div>
+
+  <script type="text/javascript">
+    new TradingView.widget(
+      {
+        "width": 980,
+        "height": 610,
+        "symbol": "BINANCE:BTCUSDT",
+        "interval": "60",
+        "timezone": "Etc/UTC",
+        "theme": "light",
+        "style": "1",
+        "locale": "en",
+        "toolbar_bg": "#f1f3f6",
+        "enable_publishing": false,
+        "hide_side_toolbar": false,
+        "allow_symbol_change": true,
+        "container_id": "tv_chart_container"
+      }
+    );
+  </script>
+</body>
+</html>

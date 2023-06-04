@@ -1,0 +1,52 @@
+{
+    "passphrase":"kengy12345",
+    "time":"{{timenow}}",
+    "exchange":"{{exchange}}",
+    "ticker":"{{ticker}}",
+    "bar":{
+        "time":"{{time}}",
+        "open":{{open}},
+        "high":{{high}},
+        "low":{{low}},
+        "close":{{close}},
+        "volume":{{volume}}
+    },
+    "strategy":{
+        "position_size":"{{strategy.position_size}}",
+        "order_action":"{{strategy.order.action}}",
+        "orde_contracts":"{{strategy.order.contracts}}",
+        "order_price":"{{strategy.order.price}}",
+        "order_id":"{{strategy.order.id}}",
+        "market_position":"{{strategy.market_position}}",
+        "market_position_size":"{{strategy.prev_position_size}}",
+        "prev_market_position":"{{strategy.prev_market_position}}",
+        "prev_market_position_size":"{{strategy.prev_market_position_size}}",
+    }
+}
+
+
+{
+    "passphrase":"kengy12345",
+    "time":"2023-05-09T10:19:19Z",
+    "exchange":"BINANCE",
+    "ticker":"ETHUSDT",
+    "bar":{
+        "time":"2023-05-09T10:19:15Z",
+        "open":1840.7,
+        "high":1840.77,
+        "low":1840.69,
+        "close":1840.77,
+        "volume":21.642
+    },
+    "strategy":{
+        "position_size":"0",
+        "order_action":"sell",
+        "orde_contracts":"sell",
+        "order_price":"1",
+        "order_id":"1845.92",
+        "market_position":"flat",
+        "market_position_size":"{{strategy.prev_position_size}}",
+        "prev_market_position":"{{strategty.prev_market_position}}",
+        "prev_market_position_size":"{{strategty.prev_market_position_size}}",
+    }
+}
